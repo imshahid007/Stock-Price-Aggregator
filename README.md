@@ -100,7 +100,7 @@ Returns all the defined stocks in the database based on pagination (10)
 }
 ```
 
-## Get /api/price/IBM
+## Get /api/price/{SYMBOL}      E.g IBM
 
 Returns all the pricing history of a stocks in the database based on pagination (10)
 
@@ -115,7 +115,7 @@ Returns all the pricing history of a stocks in the database based on pagination 
 }
 ```
 
-## Get /api/report/IBM
+## Get /api/report/{SYMBOL}      E.g IBM
 Returns reports of the current close price - previous close price 
 ```
 {
