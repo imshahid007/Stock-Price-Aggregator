@@ -176,7 +176,9 @@ A Unique class inside App\Services\AlphaVantageService was used to request HTTP 
 ## Resources
 App\Http\Resources are used to modify any output response or behaviour towards the REST API request
 
-
 ## Cache
-Alpha Vantage Cache can be changed in the .env file or in the config/alphavantage.php
+Alpha Vantage Cache Duration can be changed in the .env file or in the config/alphavantage.php
+
+## Pint
+Laravel Pint was used for code style so it stays clean and consistent.
 
