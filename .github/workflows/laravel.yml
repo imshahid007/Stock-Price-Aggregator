@@ -32,7 +32,6 @@ jobs:
       run: |
         php artisan config:clear;
         php artisan cache:clear;
-        php artisan migrate --force;
     - name: Execute tests (Unit and Feature tests) via PHPUnit
       env:
         DB_CONNECTION: sqlite
