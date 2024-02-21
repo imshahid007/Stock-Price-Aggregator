@@ -28,7 +28,7 @@ jobs:
       run: |
         mkdir -p database
         touch database/database.sqlite
-    - name: Artisan command for config, cache and migration
+    - name: Artisan command for config and cache
       run: |
         php artisan config:clear;
         php artisan cache:clear;
@@ -36,4 +36,4 @@ jobs:
       env:
         DB_CONNECTION: sqlite
         DB_DATABASE: database/database.sqlite
-      run: vendor/bin/phpunit
+      run: ./vendor/bin/pest
